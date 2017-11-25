@@ -1,23 +1,39 @@
 body{
-	background: #fff;
+	margin:0;
+	padding: 0;
 }
 .logo{
-	width: 10%;
-	height:auto;
+	width:6%;
+	height: auto;
+	position: fixed;
 }
-h1{
-	display:inline-block;
+.busqueda{
+	display: inline-block;
+	margin-top: -50px;
+	margin-left: 100px;
+	outline: 1px solid yellow;
+	position: absolute;	
+}
+.top{
+	list-style: none;
+	display: block;
+	position: absolute;
 	text-align: center;
+	width: 100%;
+	border-top: 2px solid #8fca00;
 }
 ul{
-	border: 2px solid red;
 	list-style: none;
+	padding: 5px;;
+	margin: 0;
+	background: #000;
+	line-height: 40px;
+	color:#fff;
+	position: absolute;
+	line-height: 30px;
 }
-li{
-  width: 150px;
-  display: inline-block;
-  text-align: center;
-}
+
+/*
 a{
   text-decoration: none;
   display: block;
