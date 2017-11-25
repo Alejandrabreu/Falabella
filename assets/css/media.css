@@ -1,0 +1,39 @@
+.title{
+    text-align: center;
+    margin: 3%;
+    color: #aad500;
+}
+.civico h2{
+    text-align: center;
+    margin: 2%
+}
+.usuario-seller{
+    font-size: 20px;
+    padding: 5%;
+    color:#000;
+}
+@media (min-width: 535px) and (max-width: 824px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+    body{
+        background-color: black;
+        color: white;
+    }
+    .img{
+        border:6px solid white;
+        content: url(../images/plaza_de_armas_medias.jpg);
+    }
+}
+@media (min-width: 200px) and (max-width: 534px){
+    [class*="col-"]{
+        width: 100%;
+    }
+    body{
+        background-color: #07B399;
+        color:#dfdfdf;
+    }
+    .img{
+        display: none;
+    }
+}
